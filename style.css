@@ -53,10 +53,12 @@ section.section-one {
   justify-content: center;
   height: 43px;
 }
-section.section-one h6,p {
-  display: flex;
-  justify-content: center;
+.section-one h6{
+  margin-top: 10px;
   
+} 
+.section-one p {
+  margin-top: -6px;
 }
 section.section-two {
   background-color: #FBFBFB;
@@ -134,12 +136,10 @@ p.width-p {
   color: white;
   max-width: 100%;
 }
-.blue {
+.count {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
-span {
-  font-size: 80px;
-  
+
+.count div span {
+  font-size: 80px
 }
