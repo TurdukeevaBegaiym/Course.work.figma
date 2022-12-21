@@ -3,6 +3,7 @@
 }
 body {
   margin: 0;
+  
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Inter', sans-serif;
@@ -13,7 +14,7 @@ h1 {
 }
 h2 {
   font-size: 38px;
-  font-weight: 700;
+  font-weight: 700;  
 }
 h3 {
   font-size: 25px;
@@ -31,9 +32,18 @@ h6 {
   font-size: 14px;
   font-weight: 400;
 }
+.container{
+  max-width: 1180px;
+  margin: 0 auto;
+  
+}
+header {
+  max-width: 100%;
+}
 section {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
 
 }
@@ -43,8 +53,93 @@ section.section-one {
   justify-content: center;
   height: 43px;
 }
+section.section-one h6,p {
+  display: flex;
+  justify-content: center;
+  
+}
 section.section-two {
   background-color: #FBFBFB;
   padding: 10px;
 }
 
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+.col-6 {
+  flex: 49% 0 0;
+}
+.col-6 {
+  margin-top: 100px;
+}
+ h1 {
+  max-width: 491px;
+}
+.col-6 p {
+  max-width: 300px;
+  
+}
+.woman {
+  max-width: 488px ;
+}
+.buttons img {
+  height: 43px;
+  margin: 30px 0;
+}
+.col-4 h3{
+  max-width: 334px;
+}
+h3.width {
+  max-width: 274px;
+}
+.h3.width-two {
+  max-width:294px;
+}
+.col-4 p {
+  max-width: 310px;
+}
+.col-4 {
+  flex: 33% 0 0 ;
+  margin-top:150px;
+}
+
+.col-6 h2{
+  max-width: 500px;
+}
+.col-6 .man{
+  max-width: 478px;
+}
+p.width-p {
+  max-width: 420px;
+  font-size: 18px;
+}
+.col-6.two {
+  margin: 120px 0 ;
+  
+}
+.col-6.three {
+  margin: 200px 0;
+}
+.col-6.three p {
+  margin: 0 50px;
+}
+.mikro {
+  margin-top: -100px;
+  max-width: 512px;
+}
+
+.blue-white {
+  background-color: #017CFF;;
+  color: white;
+  max-width: 100%;
+}
+.blue {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+span {
+  font-size: 80px;
+  
+}
