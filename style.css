@@ -32,15 +32,22 @@ h6 {
   font-size: 14px;
   font-weight: 400;
 }
+.bold {
+  font-weight: 700;
+  font-size: 31px;
+}
+.thin {
+  font-weight: 400;
+  font-size: 20px;
+  color: #757575;
+}
 .weight {
   font-size: 18px;
   color:#0F0F0F ;
 }
 .container{
   max-width: 1186px;
-  margin: 0 auto;
-  
-  
+  margin: 0 auto; 
 }
 header {
   max-width: 100%;
@@ -95,8 +102,35 @@ section.section-two {
   max-width: 300px;
   
 }
+.big {
+  width: 494px;
+}
+.middle {
+  width: 334px;
+}
+
+.middle.last {
+  width: 294px;
+}
+.width-one {
+  width: 250px;
+}
+.width-one.differ {
+  width: 205px;
+
+}
+
+.second {
+  width: 500px;
+}
+.width-p {
+  width: 380px;
+}
+.second-one {
+  width: 475px;
+}
 .image img {
-  width:100%;
+  width:583px;
   height: 490px;
   object-fit: cover;
 }
@@ -161,23 +195,31 @@ section.section-two {
   text-align: center;
   margin: 80px 0;
 }
-.fair-blue {
+.tetragon {
   width: 59px;
   height: 59px;
   background-color:#87CDFF;
   margin-left: 1127px;
   margin-top: 100px;
 }
+.tetragon.pink {
+  color: #E48D8B;
+}
 .darkblue-white {
   background-color:#194677;
   margin-top: 100px;
+  width: 100%;
 }
 strong {
   color: #E48D8B;
 }
 .content {
   text-align: center;
+  margin: 50px 0 ;
+
+}
+.content h3 {
+  max-width: 646px;
   margin-left: auto;
   margin-right: auto;
-
 }
